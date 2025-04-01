@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>我的博客</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 我的博客</description>
+    <title>安全 on 我的博客</title>
+    <link>http://localhost:1313/tags/%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in 安全 on 我的博客</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什么是“山寨 MFA”？</title>
       <link>http://localhost:1313/posts/shanzhai-mfa/</link>
@@ -42,30 +42,6 @@
 &lt;li&gt;&lt;strong&gt;警惕 SIM 卡交换攻击&lt;/strong&gt;：如果依赖短信验证码，要了解其风险。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;总结来说，“山寨 MFA”是那些看似增加了验证步骤，但并未实质性提升账户安全性的认证方法。识别并避免它们，选择真正有效的 MFA 方案，才能更好地保护我们的数字资产。&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>我的第一篇博客</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客&lt;/h2&gt;
-&lt;p&gt;这是我用 Hugo 搭建的第一篇博客文章。Hugo 是一个非常快速的静态网站生成器，它可以帮助我们轻松地创建和管理博客。&lt;/p&gt;
-&lt;h3 id=&#34;为什么选择-hugo&#34;&gt;为什么选择 Hugo？&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;极快的构建速度&lt;/li&gt;
-&lt;li&gt;简单的配置&lt;/li&gt;
-&lt;li&gt;丰富的主题&lt;/li&gt;
-&lt;li&gt;Markdown 支持&lt;/li&gt;
-&lt;li&gt;完全静态，无需数据库&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;接下来的计划&#34;&gt;接下来的计划&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;写更多的博客文章&lt;/li&gt;
-&lt;li&gt;自定义网站主题&lt;/li&gt;
-&lt;li&gt;添加更多功能&lt;/li&gt;
-&lt;li&gt;分享更多有趣的内容&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;希望能在这里记录下生活和工作中的点点滴滴！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -9,6 +9,41 @@
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://miaomothers.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>什么是“山寨 MFA”？</title>
+      <link>https://miaomothers.github.io/posts/shanzhai-mfa/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://miaomothers.github.io/posts/shanzhai-mfa/</guid>
+      <description>&lt;h2 id=&#34;揭秘山寨-mfa看似安全实则脆弱&#34;&gt;揭秘“山寨 MFA”：看似安全，实则脆弱&lt;/h2&gt;
+&lt;p&gt;在当今网络安全日益重要的时代，多因素认证（Multi-Factor Authentication, MFA）已成为保护账户安全的标配。然而，并非所有声称是“多因素”的认证方式都真正安全，有些甚至被戏称为“山寨 MFA”。那么，什么是“山寨 MFA”？它们又有哪些风险呢？&lt;/p&gt;
+&lt;h3 id=&#34;什么是真正的-mfa&#34;&gt;什么是真正的 MFA？&lt;/h3&gt;
+&lt;p&gt;首先，我们回顾一下什么是真正的 MFA。MFA 要求用户提供&lt;strong&gt;至少两种不同类型&lt;/strong&gt;的凭证来验证身份。这些凭证通常来自以下三个类别：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;你知道的东西（Something you know）&lt;/strong&gt;：例如密码、PIN 码。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;你拥有的东西（Something you have）&lt;/strong&gt;：例如手机（接收短信验证码、推送通知、Authenticator App 生成的动态口令）、硬件令牌（如 YubiKey）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;你是什么（Something you are）&lt;/strong&gt;：例如指纹、面部识别、虹膜扫描等生物特征。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;只有结合了&lt;strong&gt;至少两个不同类别&lt;/strong&gt;的因素，才能构成有效的 MFA。&lt;/p&gt;
+&lt;h3 id=&#34;山寨-mfa的常见形式&#34;&gt;“山寨 MFA”的常见形式&lt;/h3&gt;
+&lt;p&gt;“山寨 MFA”通常是指那些&lt;strong&gt;虽然要求用户提供多个信息，但这些信息本质上属于同一类别&lt;/strong&gt;，或者&lt;strong&gt;某个因素的安全性极低，容易被绕过或窃取&lt;/strong&gt;的认证方式。&lt;/p&gt;
+&lt;p&gt;以下是一些常见的“山寨 MFA”例子：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;密码 + 安全问题&lt;/strong&gt;：这是最常见的“山寨 MFA”。虽然需要提供两个信息，但“密码”和“安全问题的答案”（例如“你母亲的名字是什么？”、“你的第一只宠物的名字？”）都属于“你知道的东西”。黑客可以通过社工库攻击、公开信息搜索等方式轻易获取到这些问题的答案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密码 + 邮箱验证码&lt;/strong&gt;：如果你的邮箱密码和账户密码相同或相似，或者你的邮箱本身没有 MFA 保护，那么攻击者一旦攻破你的邮箱，就能轻易获取验证码，使得这个“第二因素”形同虚设。这本质上还是依赖于“你知道的东西”（密码）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;密码 + 不安全的短信验证码&lt;/strong&gt;：虽然短信验证码属于“你拥有的东西”（手机），但短信验证本身存在风险，例如 SIM 卡交换攻击（SIM Swapping）、短信劫持等。虽然比没有好，但其安全性不如基于时间的一次性密码（TOTP，如 Google Authenticator、Authy）或硬件令牌。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;同一设备上的多个“因素”&lt;/strong&gt;：例如，在手机 App 上登录时，要求输入密码，然后再进行指纹验证。虽然涉及了“你知道的”和“你是什么”两个因素，但如果攻击者已经物理控制了你的手机，并且能绕过锁屏（或者你没设置锁屏），这两个因素就同时被攻破了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;为什么山寨-mfa很危险&#34;&gt;为什么“山寨 MFA”很危险？&lt;/h3&gt;
+&lt;p&gt;“山寨 MFA”最大的危险在于它&lt;strong&gt;提供了虚假的安全感&lt;/strong&gt;。用户和系统管理员可能认为账户已经得到了足够强的保护，从而放松警惕，但实际上账户仍然容易受到攻击。&lt;/p&gt;
+&lt;h3 id=&#34;如何避免山寨-mfa&#34;&gt;如何避免“山寨 MFA”？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;选择强 MFA 方案&lt;/strong&gt;：优先选择基于 TOTP 的 Authenticator App（如 Google Authenticator, Authy, Microsoft Authenticator）或硬件安全密钥（如 YubiKey）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;确保因素独立&lt;/strong&gt;：确保你选择的多个认证因素属于不同的类别，并且一个因素的泄露不会直接导致另一个因素的泄露。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保护好基础因素&lt;/strong&gt;：例如，保护好你的邮箱账户，为其启用真正的 MFA。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;警惕 SIM 卡交换攻击&lt;/strong&gt;：如果依赖短信验证码，要了解其风险。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;总结来说，“山寨 MFA”是那些看似增加了验证步骤，但并未实质性提升账户安全性的认证方法。识别并避免它们，选择真正有效的 MFA 方案，才能更好地保护我们的数字资产。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>我的第一篇博客</title>
       <link>https://miaomothers.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>

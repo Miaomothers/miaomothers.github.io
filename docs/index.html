@@ -148,6 +148,25 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">什么是“山寨 MFA”？
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>揭秘“山寨 MFA”：看似安全，实则脆弱 在当今网络安全日益重要的时代，多因素认证（Multi-Factor Authentication, MFA）已成为保护账户安全的标配。然而，并非所有声称是“多因素”的认证方式都真正安全，有些甚至被戏称为“山寨 MFA”。那么，什么是“山寨 MFA”？它们又有哪些风险呢？
+什么是真正的 MFA？ 首先，我们回顾一下什么是真正的 MFA。MFA 要求用户提供至少两种不同类型的凭证来验证身份。这些凭证通常来自以下三个类别：
+你知道的东西（Something you know）：例如密码、PIN 码。 你拥有的东西（Something you have）：例如手机（接收短信验证码、推送通知、Authenticator App 生成的动态口令）、硬件令牌（如 YubiKey）。 你是什么（Something you are）：例如指纹、面部识别、虹膜扫描等生物特征。 只有结合了至少两个不同类别的因素，才能构成有效的 MFA。
+“山寨 MFA”的常见形式 “山寨 MFA”通常是指那些虽然要求用户提供多个信息，但这些信息本质上属于同一类别，或者某个因素的安全性极低，容易被绕过或窃取的认证方式。
+以下是一些常见的“山寨 MFA”例子：
+密码 &#43; 安全问题：这是最常见的“山寨 MFA”。虽然需要提供两个信息，但“密码”和“安全问题的答案”（例如“你母亲的名字是什么？”、“你的第一只宠物的名字？”）都属于“你知道的东西”。黑客可以通过社工库攻击、公开信息搜索等方式轻易获取到这些问题的答案。 密码 &#43; 邮箱验证码：如果你的邮箱密码和账户密码相同或相似，或者你的邮箱本身没有 MFA 保护，那么攻击者一旦攻破你的邮箱，就能轻易获取验证码，使得这个“第二因素”形同虚设。这本质上还是依赖于“你知道的东西”（密码）。 密码 &#43; 不安全的短信验证码：虽然短信验证码属于“你拥有的东西”（手机），但短信验证本身存在风险，例如 SIM 卡交换攻击（SIM Swapping）、短信劫持等。虽然比没有好，但其安全性不如基于时间的一次性密码（TOTP，如 Google Authenticator、Authy）或硬件令牌。 同一设备上的多个“因素”：例如，在手机 App 上登录时，要求输入密码，然后再进行指纹验证。虽然涉及了“你知道的”和“你是什么”两个因素，但如果攻击者已经物理控制了你的手机，并且能绕过锁屏（或者你没设置锁屏），这两个因素就同时被攻破了。 为什么“山寨 MFA”很危险？ “山寨 MFA”最大的危险在于它提供了虚假的安全感。用户和系统管理员可能认为账户已经得到了足够强的保护，从而放松警惕，但实际上账户仍然容易受到攻击。
+如何避免“山寨 MFA”？ 选择强 MFA 方案：优先选择基于 TOTP 的 Authenticator App（如 Google Authenticator, Authy, Microsoft Authenticator）或硬件安全密钥（如 YubiKey）。 确保因素独立：确保你选择的多个认证因素属于不同的类别，并且一个因素的泄露不会直接导致另一个因素的泄露。 保护好基础因素：例如，保护好你的邮箱账户，为其启用真正的 MFA。 警惕 SIM 卡交换攻击：如果依赖短信验证码，要了解其风险。 总结来说，“山寨 MFA”是那些看似增加了验证步骤，但并未实质性提升账户安全性的认证方法。识别并避免它们，选择真正有效的 MFA 方案，才能更好地保护我们的数字资产。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-01 00:00:00 +0000 UTC'>April 1, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;82 words</footer>
+  <a class="entry-link" aria-label="post link to 什么是“山寨 MFA”？" href="https://miaomothers.github.io/posts/shanzhai-mfa/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">我的第一篇博客
     </h2>
   </header>
