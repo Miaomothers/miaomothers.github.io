@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 我的博客</title>
+    <link>https://miaomothers.github.io/posts/</link>
+    <description>Recent content in Posts on 我的博客</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://miaomothers.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇博客</title>
+      <link>https://miaomothers.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://miaomothers.github.io/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客&lt;/h2&gt;
+&lt;p&gt;这是我用 Hugo 搭建的第一篇博客文章。Hugo 是一个非常快速的静态网站生成器，它可以帮助我们轻松地创建和管理博客。&lt;/p&gt;
+&lt;h3 id=&#34;为什么选择-hugo&#34;&gt;为什么选择 Hugo？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;极快的构建速度&lt;/li&gt;
+&lt;li&gt;简单的配置&lt;/li&gt;
+&lt;li&gt;丰富的主题&lt;/li&gt;
+&lt;li&gt;Markdown 支持&lt;/li&gt;
+&lt;li&gt;完全静态，无需数据库&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;接下来的计划&#34;&gt;接下来的计划&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;写更多的博客文章&lt;/li&gt;
+&lt;li&gt;自定义网站主题&lt;/li&gt;
+&lt;li&gt;添加更多功能&lt;/li&gt;
+&lt;li&gt;分享更多有趣的内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望能在这里记录下生活和工作中的点点滴滴！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
