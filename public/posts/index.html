@@ -139,6 +139,43 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Yann LeCun 访谈：探索人工智能的未来边界
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Yann LeCun 访谈：深入理解人工智能的当前挑战与未来方向 作为深度学习领域的先驱和图灵奖得主，Yann LeCun 的见解对于理解人工智能（AI）的发展轨迹至关重要。他不仅是卷积神经网络（CNN）的关键贡献者，也是 Meta 的首席 AI 科学家，持续推动着 AI 研究的前沿。下面的访谈视频提供了他关于当前 AI 技术，特别是大型语言模型（LLM）的局限性以及未来发展方向的宝贵思考。
+(请观看上面的视频，了解 Yann LeCun 的完整观点)
+超越自回归模型：当前 LLM 的局限性 在类似的讨论中，LeCun 经常强调当前主流大型语言模型（如 GPT 系列）的核心局限性。这些模型大多基于自回归（Autoregressive）架构，其本质是根据之前的词语序列来预测下一个最有可能的词语。虽然这使得它们在生成流畅、连贯的文本方面表现出色，甚至能进行一定程度的对话和编码，但 LeCun 指出，这种模式存在根本性的缺陷。
+他认为，这种“下一个词预测”的机制并不等同于真正的理解、推理或规划能力。LLM 本质上是在模仿其训练数据中存在的模式，它们缺乏对世界的内在模型（World Model），无法真正理解物理定律、因果关系或进行长期规划。它们可能会“一本正经地胡说八道”（hallucinate），生成看似合理但事实错误的陈述，因为它们的目标是生成统计上最可能的文本，而不是确保事实准确性或逻辑一致性。
+通往人类水平 AI 之路：世界模型与目标驱动智能 LeCun 畅想的下一代 AI 系统，需要具备更深层次的认知能力。他大力倡导开发具备“世界模型”的 AI。这种模型能够内化关于世界如何运作的知识，理解物理规则、行为后果，并能基于这些理解进行预测和规划。
+为了实现这一目标，他提出了诸如联合嵌入预测架构（Joint Embedding Predictive Architectures, JEPA）等概念。与仅仅预测下一个词的 LLM 不同，JEPA 旨在学习数据的高级抽象表示，并预测这些表示在未来的状态。这种方法更侧重于理解数据的底层结构和动态变化，而不是仅仅模仿表面模式。LeCun 相信，通过学习预测世界的高维表示，AI 系统才能获得常识（common sense），这是实现人类水平智能的关键一步。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-01 16:40:33 +0800 CST'>April 1, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;89 words</footer>
+  <a class="entry-link" aria-label="post link to Yann LeCun 访谈：探索人工智能的未来边界" href="http://localhost:1313/posts/yann-lecun-ai-insights/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">什么是“山寨 MFA”？
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>揭秘“山寨 MFA”：看似安全，实则脆弱 在当今网络安全日益重要的时代，多因素认证（Multi-Factor Authentication, MFA）已成为保护账户安全的标配。然而，并非所有声称是“多因素”的认证方式都真正安全，有些甚至被戏称为“山寨 MFA”。那么，什么是“山寨 MFA”？它们又有哪些风险呢？
+什么是真正的 MFA？ 首先，我们回顾一下什么是真正的 MFA。MFA 要求用户提供至少两种不同类型的凭证来验证身份。这些凭证通常来自以下三个类别：
+你知道的东西（Something you know）：例如密码、PIN 码。 你拥有的东西（Something you have）：例如手机（接收短信验证码、推送通知、Authenticator App 生成的动态口令）、硬件令牌（如 YubiKey）。 你是什么（Something you are）：例如指纹、面部识别、虹膜扫描等生物特征。 只有结合了至少两个不同类别的因素，才能构成有效的 MFA。
+“山寨 MFA”的常见形式 “山寨 MFA”通常是指那些虽然要求用户提供多个信息，但这些信息本质上属于同一类别，或者某个因素的安全性极低，容易被绕过或窃取的认证方式。
+以下是一些常见的“山寨 MFA”例子：
+密码 &#43; 安全问题：这是最常见的“山寨 MFA”。虽然需要提供两个信息，但“密码”和“安全问题的答案”（例如“你母亲的名字是什么？”、“你的第一只宠物的名字？”）都属于“你知道的东西”。黑客可以通过社工库攻击、公开信息搜索等方式轻易获取到这些问题的答案。 密码 &#43; 邮箱验证码：如果你的邮箱密码和账户密码相同或相似，或者你的邮箱本身没有 MFA 保护，那么攻击者一旦攻破你的邮箱，就能轻易获取验证码，使得这个“第二因素”形同虚设。这本质上还是依赖于“你知道的东西”（密码）。 密码 &#43; 不安全的短信验证码：虽然短信验证码属于“你拥有的东西”（手机），但短信验证本身存在风险，例如 SIM 卡交换攻击（SIM Swapping）、短信劫持等。虽然比没有好，但其安全性不如基于时间的一次性密码（TOTP，如 Google Authenticator、Authy）或硬件令牌。 同一设备上的多个“因素”：例如，在手机 App 上登录时，要求输入密码，然后再进行指纹验证。虽然涉及了“你知道的”和“你是什么”两个因素，但如果攻击者已经物理控制了你的手机，并且能绕过锁屏（或者你没设置锁屏），这两个因素就同时被攻破了。 为什么“山寨 MFA”很危险？ “山寨 MFA”最大的危险在于它提供了虚假的安全感。用户和系统管理员可能认为账户已经得到了足够强的保护，从而放松警惕，但实际上账户仍然容易受到攻击。
+如何避免“山寨 MFA”？ 选择强 MFA 方案：优先选择基于 TOTP 的 Authenticator App（如 Google Authenticator, Authy, Microsoft Authenticator）或硬件安全密钥（如 YubiKey）。 确保因素独立：确保你选择的多个认证因素属于不同的类别，并且一个因素的泄露不会直接导致另一个因素的泄露。 保护好基础因素：例如，保护好你的邮箱账户，为其启用真正的 MFA。 警惕 SIM 卡交换攻击：如果依赖短信验证码，要了解其风险。 总结来说，“山寨 MFA”是那些看似增加了验证步骤，但并未实质性提升账户安全性的认证方法。识别并避免它们，选择真正有效的 MFA 方案，才能更好地保护我们的数字资产。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-01 00:00:00 +0000 UTC'>April 1, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;82 words</footer>
+  <a class="entry-link" aria-label="post link to 什么是“山寨 MFA”？" href="http://localhost:1313/posts/shanzhai-mfa/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">我的第一篇博客
     </h2>
   </header>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>访谈 on 我的博客</title>
+    <link>http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/</link>
+    <description>Recent content in 访谈 on 我的博客</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Apr 2025 16:40:33 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yann LeCun 访谈：探索人工智能的未来边界</title>
+      <link>http://localhost:1313/posts/yann-lecun-ai-insights/</link>
+      <pubDate>Tue, 01 Apr 2025 16:40:33 +0800</pubDate>
+      <guid>http://localhost:1313/posts/yann-lecun-ai-insights/</guid>
+      <description>&lt;h2 id=&#34;yann-lecun-访谈深入理解人工智能的当前挑战与未来方向&#34;&gt;Yann LeCun 访谈：深入理解人工智能的当前挑战与未来方向&lt;/h2&gt;
+&lt;p&gt;作为深度学习领域的先驱和图灵奖得主，Yann LeCun 的见解对于理解人工智能（AI）的发展轨迹至关重要。他不仅是卷积神经网络（CNN）的关键贡献者，也是 Meta 的首席 AI 科学家，持续推动着 AI 研究的前沿。下面的访谈视频提供了他关于当前 AI 技术，特别是大型语言模型（LLM）的局限性以及未来发展方向的宝贵思考。&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Ync_JX7faHs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;(请观看上面的视频，了解 Yann LeCun 的完整观点)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;超越自回归模型当前-llm-的局限性&#34;&gt;超越自回归模型：当前 LLM 的局限性&lt;/h3&gt;
+&lt;p&gt;在类似的讨论中，LeCun 经常强调当前主流大型语言模型（如 GPT 系列）的核心局限性。这些模型大多基于自回归（Autoregressive）架构，其本质是根据之前的词语序列来预测下一个最有可能的词语。虽然这使得它们在生成流畅、连贯的文本方面表现出色，甚至能进行一定程度的对话和编码，但 LeCun 指出，这种模式存在根本性的缺陷。&lt;/p&gt;
+&lt;p&gt;他认为，这种“下一个词预测”的机制并不等同于真正的理解、推理或规划能力。LLM 本质上是在模仿其训练数据中存在的模式，它们缺乏对世界的内在模型（World Model），无法真正理解物理定律、因果关系或进行长期规划。它们可能会“一本正经地胡说八道”（hallucinate），生成看似合理但事实错误的陈述，因为它们的目标是生成统计上最可能的文本，而不是确保事实准确性或逻辑一致性。&lt;/p&gt;
+&lt;h3 id=&#34;通往人类水平-ai-之路世界模型与目标驱动智能&#34;&gt;通往人类水平 AI 之路：世界模型与目标驱动智能&lt;/h3&gt;
+&lt;p&gt;LeCun 畅想的下一代 AI 系统，需要具备更深层次的认知能力。他大力倡导开发具备“世界模型”的 AI。这种模型能够内化关于世界如何运作的知识，理解物理规则、行为后果，并能基于这些理解进行预测和规划。&lt;/p&gt;
+&lt;p&gt;为了实现这一目标，他提出了诸如联合嵌入预测架构（Joint Embedding Predictive Architectures, JEPA）等概念。与仅仅预测下一个词的 LLM 不同，JEPA 旨在学习数据的高级抽象表示，并预测这些表示在未来的状态。这种方法更侧重于理解数据的底层结构和动态变化，而不是仅仅模仿表面模式。LeCun 相信，通过学习预测世界的高维表示，AI 系统才能获得常识（common sense），这是实现人类水平智能的关键一步。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
